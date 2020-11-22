@@ -4,12 +4,20 @@
   "description": "Discord bot for steam sale updates",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "author": "Pratyush Kerhalkar",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.0",
     "discord.js": "^12.4.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "redis": "^3.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "steam-price-api": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
