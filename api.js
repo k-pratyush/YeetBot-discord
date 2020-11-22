@@ -38,7 +38,7 @@ exports.getGameInfo = async gamePlain => {
   });
 };
 
-exports.getGameDeals = async (limit, sort)  => {
+exports.getGameDeals = async (sort, limit)  => {
   return new Promise(async (resolve, reject) => {
     try {
       const data = await axios.get(`${baseURL}/v01/deals/list`, {
