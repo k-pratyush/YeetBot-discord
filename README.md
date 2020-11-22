@@ -6,8 +6,8 @@
 | COMMAND      | ARGS                                | DETAILS                                   |
 |--------------|-------------------------------------|-------------------------------------------|
 | ~info        | <game_name>                         | Get store details about the game          |
-| ~deals       | <game_name>                         | Get latest deals in the store             |
-| ~lowestPrice | optional: sort, optional: limit     | Get historically lowest price of the game |
+| ~deals       | optional: sort, optional: limit     | Get latest deals in the store             |
+| ~lowestPrice | <game_name>                         | Get historically lowest price of the game |
 | ~price       | <game_name>                         | Get current price of the game             |
 | ~help        | none                                | Get help menu                             |
 
